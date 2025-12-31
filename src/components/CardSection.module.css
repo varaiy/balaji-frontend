@@ -1,5 +1,6 @@
 .section {
-    padding: 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    /* Increased top padding further */
     background-color: #ffffff;
     display: flex;
     /* To center container vertically if needed */
