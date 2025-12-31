@@ -1,0 +1,56 @@
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 60%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    z-index: 100;
+    padding: 0.5rem;
+}
+
+.iconLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.iconLink:hover {
+    transform: translateX(-5px) scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Specific Colors */
+.facebook {
+    background-color: #1877f2;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+        /* Hide on mobile usually, or move to bottom */
+    }
+}
