@@ -39,7 +39,7 @@ const CardSection = () => {
                         />
                         <div className={styles.overlay}></div>
                         <div className={styles.content}>
-                            <span className={styles.tag} style={index === 1 ? { background: 'linear-gradient(90deg, #f97316 0%, #0ea5e9 100%)' } : {}}>{card.title}</span>
+                            <span className={styles.tag}>{card.title}</span>
                             <p className={styles.description}>{card.description}</p>
                             <button className={styles.button}>Visit Website</button>
                         </div>

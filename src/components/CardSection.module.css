@@ -89,9 +89,9 @@
     margin-bottom: 0.2rem;
 }
 
-.card:nth-child(2) .tag {
+/* .card:nth-child(2) .tag {
     background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
-}
+} */
 
 .description {
     font-size: 0.9rem;
